@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Miso';
+  src: url(../fonts/miso.otf);
+}
+@font-face {
+  font-family: 'Miso';
+  src: url(../fonts/miso-bold.otf);
+  font-weight: bold;
+}
+
+body {
+  background: #fdde7e;
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 50px auto;
+}
+.content {
+  display: flex;
+  margin: 0 -15px;
+  height: 500px;
+  align-items: center;
+}
+.card {
+  background: #ffffff;
+  margin: 0 15px;
+  flex: 0 1 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-around;
+  min-height: 441px;
+  padding: 15px;
+}
+.card__gold {
+  align-self: stretch;
+}
+.card__price {
+  font-size: 70px;
+  font-family: 'Miso';
+  font-weight: 700;
+  color: #02995b;
+}
+.card__logo {
+  width: 135px;
+  height: 134px;
+}
+.bronze {
+  background: url(../img/smoke_bronze.png) no-repeat 40% top,
+    url(../img/bean.png) no-repeat 43% 80%,
+    url(../img/cup_bronze.png) no-repeat bottom;
+}
+.gold {
+  background: url(../img/smoke_gold.png) no-repeat 40% top,
+    url(../img/bean.png) no-repeat 43% 80%,
+    url(../img/cup_gold.png) no-repeat bottom;
+}
+.silver {
+  background: url(../img/smoke_silver.png) no-repeat 40% top,
+    url(../img/bean.png) no-repeat 43% 80%,
+    url(../img/cup_silver.png) no-repeat bottom;
+}
+.card__title {
+  font-size: 56px;
+  font-family: 'Miso', sans-serif;
+}
+.card__subtitle {
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 18px;
+  width: 156px;
+  text-align: center;
+}
